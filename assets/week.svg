@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   viewBox="0 0 49.819328 47.547508"
+   version="1.1"
+   id="svg9"
+   sodipodi:docname="week.svg"
+   inkscape:version="0.92.4 (5da689c313, 2019-01-14)"
+   width="49.819328"
+   height="47.547508">
+  <metadata
+     id="metadata15">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title>calendar@1x</dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs13" />
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1920"
+     inkscape:window-height="1023"
+     id="namedview11"
+     showgrid="false"
+     inkscape:zoom="3.7503267"
+     inkscape:cx="-37.629247"
+     inkscape:cy="24.599663"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg9"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     inkscape:object-paths="true" />
+  <title
+     id="title2">calendar@1x</title>
+  <g
+     id="g899"
+     transform="translate(13.78604,-2.7487639)">
+    <g
+       transform="translate(-10.876375,4.0092194)"
+       id="text848"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:22.3532505px;line-height:1.25;font-family:'Rounded Mplus 1c Light';-inkscape-font-specification:'Rounded Mplus 1c Light, ';letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1;stroke-opacity:1"
+       aria-label="7">
+      <path
+         inkscape:connector-curvature="0"
+         id="path850"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Rounded Mplus 1c Bold';-inkscape-font-specification:'Rounded Mplus 1c Bold, ';fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1;stroke-opacity:1"
+         d="m 17.719352,25.888522 q -0.514125,0 -0.89413,-0.357652 -0.380006,-0.380006 -0.380006,-0.89413 0,-0.514125 0.380006,-0.89413 0.380005,-0.380006 0.89413,-0.380006 h 8.561295 q 0.514124,0 0.89413,0.380006 0.380005,0.380005 0.380005,0.89413 0,1.229428 -0.670598,2.369444 -2.950629,5.096541 -5.051834,11.467218 -0.178826,0.536478 -0.648245,0.871776 -0.447065,0.335299 -1.005896,0.335299 h -0.782364 q -0.469418,0 -0.737657,-0.380005 -0.268239,-0.380005 -0.111766,-0.82707 2.458857,-6.817742 6.013024,-12.495467 v -0.04471 q 0,-0.04471 -0.02235,-0.04471 z" />
+    </g>
+    <rect
+       ry="4.6662602"
+       rx="4.6662602"
+       y="10.799582"
+       x="-12.28604"
+       height="37.996689"
+       width="46.819328"
+       id="rect855"
+       style="opacity:1;fill:none;fill-opacity:1;stroke:#ffffff;stroke-width:3;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1" />
+    <path
+       inkscape:connector-curvature="0"
+       id="path887"
+       d="M 20.13158,4.2701276 V 15.735796"
+       style="fill:none;stroke:#ffffff;stroke-width:3;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    <path
+       style="fill:none;stroke:#ffffff;stroke-width:3;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 2,4.5343321 V 16"
+       id="path889"
+       inkscape:connector-curvature="0" />
+    <path
+       inkscape:connector-curvature="0"
+       id="path891"
+       d="M -10.88396,21.335308 H 33.131208"
+       style="fill:none;fill-opacity:1;stroke:#ffffff;stroke-width:3;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+  </g>
+</svg>
