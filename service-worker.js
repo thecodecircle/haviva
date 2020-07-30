@@ -50,7 +50,7 @@ self.addEventListener('fetch', function(event) {
 });
 
 self.addEventListener('activate', function(event) {
-
+ 
   var cacheAllowlist = ['haviva-cache-v1'];
 
   event.waitUntil(
