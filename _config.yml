@@ -23,11 +23,11 @@ markdown: kramdown
 theme: minima
 plugins:
   - jekyll-feed
-pwa:
-  enabled: true # Optional
-  sw_src_filepath: {{site.baseurl}}/service-worker.js # Optional
-  sw_dest_filename: {{site.baseurl}}/service-worker.js # Optional
-  dest_js_directory: assets/js # Required
+# pwa:
+#   enabled: true # Optional
+#   sw_src_filepath: {{site.baseurl}}/service-worker.js # Optional
+#   sw_dest_filename: {{site.baseurl}}/service-worker.js # Optional
+#   dest_js_directory: assets/js # Required
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.
