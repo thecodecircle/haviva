@@ -1,34 +1,67 @@
-// service-worker.js
+var CACHE_NAME = 'haviva-cache-v1';
+var urlsToCache = [
+  'main.css',
+  'index.html'
+];
 
-// set names for both precache & runtime cache
-workbox.core.setCacheNameDetails({
-    prefix: 'haviva',
-    suffix: 'v1',
-    precache: 'precache',
-    runtime: 'runtime-cache'
+self.addEventListener('install', function(event) {
+  // Perform install steps
+  event.waitUntil(
+    caches.open(CACHE_NAME)
+      .then(function(cache) {
+        console.log('Opened cache');
+        return cache.addAll(urlsToCache);
+      })
+  );
 });
 
-// let Service Worker take control of pages ASAP
-workbox.skipWaiting();
-workbox.clientsClaim();
+self.addEventListener('fetch', function(event) {
+  event.respondWith(
+    caches.match(event.request)
+      .then(function(response) {
+        // Cache hit - return response
+        if (response) {
+          return response;
+        }
 
-// let Workbox handle our precache list
-workbox.precaching.precacheAndRoute(self.__precacheManifest);
+        return fetch(event.request).then(
+          function(response) {
+            // Check if we received a valid response
+            if(!response || response.status !== 200 || response.type !== 'basic') {
+              return response;
+            }
 
-// use `networkFirst` strategy for `*.html`, like all my posts
-workbox.routing.registerRoute(
-    /\.html$/,
-    workbox.strategies.networkFirst()
-);
+            // IMPORTANT: Clone the response. A response is a stream
+            // and because we want the browser to consume the response
+            // as well as the cache consuming the response, we need
+            // to clone it so we have two streams.
+            var responseToCache = response.clone();
 
-// use `cacheFirst` strategy for images
-workbox.routing.registerRoute(
-    /assets\/(img|icons)/,
-    workbox.strategies.cacheFirst()
-);
+            caches.open(CACHE_NAME)
+              .then(function(cache) {
+                cache.put(event.request, responseToCache);
+              });
 
-// third party files
-workbox.routing.registerRoute(
-    /^https?:\/\/cdn.staticfile.org/,
-    workbox.strategies.staleWhileRevalidate()
-);
+            return response;
+          }
+        );
+      })
+    );
+});
+
+self.addEventListener('activate', function(event) {
+
+  var cacheAllowlist = ['haviva-cache-v1'];
+
+  event.waitUntil(
+    caches.keys().then(function(cacheNames) {
+      return Promise.all(
+        cacheNames.map(function(cacheName) {
+          if (cacheAllowlist.indexOf(cacheName) === -1) {
+            return caches.delete(cacheName);
+          }
+        })
+      );
+    })
+  );
+});
