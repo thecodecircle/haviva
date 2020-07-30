@@ -1,7 +1,7 @@
 {
     "name": "Haviva",
     "short_name": "Haviva",
-    "start_url": "/haviva",
+    "start_url": "/haviva/",
     "icons": [
         {
             "src": "assets/favicon/android-chrome-192x192.png",
