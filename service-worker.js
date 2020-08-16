@@ -1,4 +1,4 @@
-var CACHE_NAME = 'haviva-cache-v2';
+var CACHE_NAME = 'haviva-cache-v3';
 var urlsToCache = [
   'main.css',
   'index.html'
@@ -51,7 +51,7 @@ self.addEventListener('fetch', function(event) {
 
 self.addEventListener('activate', function(event) {
 
-  var cacheAllowlist = ['haviva-cache-v2'];
+  var cacheAllowlist = [CACHE_NAME];
 
   event.waitUntil(
     caches.keys().then(function(cacheNames) {
