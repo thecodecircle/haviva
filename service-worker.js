@@ -1,4 +1,4 @@
-var CACHE_NAME = 'haviva-cache-v2';
+var CACHE_NAME = 'haviva-cache-v4';
 var urlsToCache = [
   'main.css',
   'index.html'
