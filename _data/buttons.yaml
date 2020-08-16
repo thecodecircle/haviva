@@ -13,13 +13,13 @@
   custom: true
   link: https://docs.google.com/forms/d/e/1FAIpQLScSBjSIDLfRg8ySpewoTJTgGDZQ5U0jwYdvOB7e4IWEU7J4NA/viewform
 
-# - text: טופס בקשת יציאה
-#   icon: fas fa-door-open
-#   link: https://docs.google.com/forms/d/e/1FAIpQLScBqskSVoXmhrVKCEVUQX-W7n8c8tC987q7uHiBW5uOi6kzDg/viewform?usp=sf_link
-#
-# - text: טופס הצהרת בריאות
-#   icon: fas fa-file-medical
-#   link: https://docs.google.com/forms/d/e/1FAIpQLScTozJXtDkIhbV3qAZ_05RzlPx-5dT45gls9lO88Rb8ELuHwg/viewform?usp=sf_link
+- text: טופס בקשת יציאה
+  icon: fas fa-door-open
+  link: https://docs.google.com/forms/d/e/1FAIpQLScBqskSVoXmhrVKCEVUQX-W7n8c8tC987q7uHiBW5uOi6kzDg/viewform?usp=sf_link
+
+- text: טופס הצהרת בריאות
+  icon: fas fa-file-medical
+  link: https://docs.google.com/forms/d/e/1FAIpQLScTozJXtDkIhbV3qAZ_05RzlPx-5dT45gls9lO88Rb8ELuHwg/viewform?usp=sf_link
 
 - text: כללי
   icon: folder
