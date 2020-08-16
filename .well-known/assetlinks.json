@@ -1,0 +1,5 @@
+[{
+  "relation": ["delegate_permission/common.handle_all_urls"],
+  "target" : { "namespace": "android_app", "package_name": "io.github.thecodecircle.twa",
+               "sha256_cert_fingerprints": ["78:55:70:31:1F:E7:20:86:A0:E3:4A:5D:A7:8D:AC:D9:28:A5:3C:4A:F8:48:BF:93:C6:C1:C0:F9:D2:55:A9:69"] }
+}]
