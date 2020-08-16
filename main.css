@@ -10,6 +10,10 @@
 .text-res{
   font-size: 6vw;
 }
+.text-center{
+  text-align: center;
+  line-height: 1;
+}
 .bg-primary{
   background: #1C80C2;
 }
@@ -38,11 +42,18 @@ a:visited{
   margin-right: 1rem;
   margin-left: 1rem;
 }
+.px-4 {
+  padding-right: 1rem;
+  padding-left: 1rem;
+}
 .mb-2 {
   	margin-bottom: 0.5rem;
 }
 .mt-4 {
   margin-top: 1rem;
+}
+.mt-1 {
+  margin-top: 0.5rem;
 }
 .my-2{
   margin-top: 0.5rem;
@@ -94,4 +105,17 @@ a:visited{
 body{
   margin: 0;
   font-family: "Heebo", serif
+}
+
+.grid{
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+   grid-gap: 1rem 1rem;
+   grid-template-areas:
+    "first first"
+    ". ."
+    ". .";
+}
+.first{
+  grid-area: first;
 }

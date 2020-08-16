@@ -1,23 +1,32 @@
-- text: טופס פעילות ייחודית
-  icon: idea
-  link: https://docs.google.com/forms/d/e/1FAIpQLSeSfarrPiZ_4x_RFDa5Ry0T3QLRg1jELstFKCWhRcTagm2P_Q/viewform
-
 - text: נוכחות
   icon: mate
-  side: left
+  custom: true
   link:  https://mate.codecircle.co.il
+
+- text: טופס פעילות ייחודית
+  icon: idea
+  custom: true
+  link: https://docs.google.com/forms/d/e/1FAIpQLSeSfarrPiZ_4x_RFDa5Ry0T3QLRg1jELstFKCWhRcTagm2P_Q/viewform
 
 - text: טופס תקלות
   icon: broken
-  side: right
+  custom: true
   link: https://docs.google.com/forms/d/e/1FAIpQLScSBjSIDLfRg8ySpewoTJTgGDZQ5U0jwYdvOB7e4IWEU7J4NA/viewform
+
+# - text: טופס בקשת יציאה
+#   icon: fas fa-door-open
+#   link: https://docs.google.com/forms/d/e/1FAIpQLScBqskSVoXmhrVKCEVUQX-W7n8c8tC987q7uHiBW5uOi6kzDg/viewform?usp=sf_link
+#
+# - text: טופס הצהרת בריאות
+#   icon: fas fa-file-medical
+#   link: https://docs.google.com/forms/d/e/1FAIpQLScTozJXtDkIhbV3qAZ_05RzlPx-5dT45gls9lO88Rb8ELuHwg/viewform?usp=sf_link
 
 - text: כללי
   icon: folder
-  side: left
+  custom: true
   link: https://drive.google.com/folderview?id=1djWN1036sdDNq0wQPnArteSHwU_WKMOJ
 
 - text: לו"זים
   icon: week
-  side: right
+  custom: true
   link: https://drive.google.com/folderview?id=1dgeuGPMxPacnji0Q_cwkHQs05U_TN8y3

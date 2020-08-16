@@ -9,7 +9,30 @@ layout: home
   <img src="{{site.baseurl}}/assets/LOGO3.png" alt="logo" class="h-24 my-2" >
 </header>
 
-<div class=" flex flex-wrap w-full justify-between items-center text-res">
+<div class=" grid grid-cols-2 w-full text-res px-4 mt-4 text-center">
+  {% for button in site.data.buttons %}
+    {% if forloop.index == 1 %}
+      <div class="flex flex-col items-center w-full first justify-center text-center">
+        <a href="{{button.link}}" class="bg-primary text-white h-20v w-full p-2 rounded">
+    {% else %}
+      <div class="flex flex-col items-center w-1-0 justify-center text-center">
+        <a href="{{button.link}}" class="bg-primary text-white h-20v w-full p-2 rounded">
+    {% endif %}
+      <div class="w-full h-full flex flex-col items-center justify-center">
+        {% if button.custom  %}
+          <img src="{{site.baseurl}}/assets/{{button.icon}}.svg" alt="{{button.icon}}" class="h-10">
+        {% else %}
+          <i class="{{button.icon}}"  alt="{{button.icon}}"></i>
+        {% endif %}
+        <span class=" mt-1">
+          {{button.text}}
+        </span>
+      </div>
+    </a>
+  </div>
+  {% endfor %}
+</div>
+<!-- <div class=" flex flex-wrap w-full justify-between items-center text-res">
   {% for button in site.data.buttons %}
     {% if button.text == "טופס פעילות ייחודית" %}
     <div class="flex flex-col items-center w-full mx-4 mb-2 mt-4 ">
@@ -29,7 +52,7 @@ layout: home
     </a>
   </div>
   {% endfor %}
-</div>
+</div> -->
 
 <script type="text/javascript">
 if ('serviceWorker' in navigator) {
