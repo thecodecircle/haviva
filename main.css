@@ -52,6 +52,10 @@ a:visited{
 .mt-4 {
   margin-top: 1rem;
 }
+.my-4 {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
 .mt-1 {
   margin-top: 0.5rem;
 }

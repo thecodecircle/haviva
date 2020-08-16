@@ -9,7 +9,7 @@ layout: home
   <img src="{{site.baseurl}}/assets/LOGO3.png" alt="logo" class="h-24 my-2" >
 </header>
 
-<div class=" grid grid-cols-2 w-full text-res px-4 mt-4 text-center">
+<div class=" grid grid-cols-2 w-full text-res px-4 my-4 text-center">
   {% for button in site.data.buttons %}
     {% if forloop.index == 1 %}
       <div class="flex flex-col items-center w-full first justify-center text-center">
@@ -32,32 +32,12 @@ layout: home
   </div>
   {% endfor %}
 </div>
-<!-- <div class=" flex flex-wrap w-full justify-between items-center text-res">
-  {% for button in site.data.buttons %}
-    {% if button.text == "טופס פעילות ייחודית" %}
-    <div class="flex flex-col items-center w-full mx-4 mb-2 mt-4 ">
-      <a href="{{button.link}}" class="bg-primary text-white h-20v w-full p-2 rounded">
-    {% else %}
-      {%- if button.side == "left" -%}
-        <div class="w-50 flex flex-col items-center pr-2 pl-4 my-2">
-      {%- else condition -%}
-        <div class="w-50 flex flex-col items-center pl-2 pr-4 my-2">
-      {%- endif -%}
-      <a href="{{button.link}}" class="bg-primary text-white h-20v w-full p-2 rounded">
-    {% endif %}
-      <div class="w-full h-full flex flex-col items-center justify-center">
-        <img src="{{site.baseurl}}/assets/{{button.icon}}.svg" alt="{{button.icon}}" class="h-10">
-        {{button.text}}
-      </div>
-    </a>
-  </div>
-  {% endfor %}
-</div> -->
+
 
 <script type="text/javascript">
   if ('serviceWorker' in navigator) {
     caches.keys().then(function(cacheNames) {
-      console.log("sw");
+      console.log(cache);
       cacheNames.forEach(function(cacheName) {
         caches.delete(cacheName);
       });
