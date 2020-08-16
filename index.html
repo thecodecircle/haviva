@@ -37,7 +37,7 @@ layout: home
 <script type="text/javascript">
   if ('serviceWorker' in navigator) {
     caches.keys().then(function(cacheNames) {
-      console.log(cache);
+      // console.log(cache);
       cacheNames.forEach(function(cacheName) {
         caches.delete(cacheName);
       });
