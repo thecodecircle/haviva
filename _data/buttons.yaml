@@ -20,6 +20,14 @@
 - text: טופס הצהרת בריאות
   icon: fas fa-file-medical
   link: https://docs.google.com/forms/d/e/1FAIpQLScTozJXtDkIhbV3qAZ_05RzlPx-5dT45gls9lO88Rb8ELuHwg/viewform?usp=sf_link
+  
+- text: הצעת אגוזי לוז
+  icon: far fa-calendar-plus
+  link: https://docs.google.com/forms/d/e/1FAIpQLSdSRrEwZUflZbtyVoN4xaNADSxUMF4PAn9UcukEAgRo7bYU1Q/viewform
+  
+- text: למידה
+  icon: fas fa-book-open
+  link: https://drive.google.com/folderview?id=1nnaIMT5abO4pGwkgF9ElossGAN6HkKfr
 
 - text: כללי
   icon: folder
@@ -30,3 +38,4 @@
   icon: week
   custom: true
   link: https://drive.google.com/folderview?id=1dgeuGPMxPacnji0Q_cwkHQs05U_TN8y3
+
